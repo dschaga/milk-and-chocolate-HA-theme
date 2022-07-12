@@ -1,0 +1,258 @@
+# Theme started based on the iOS Dark Mode UI
+# There is a dark Theme, which is the default and there is a bright theme as well
+# https://github.com/dschaga/milk-and-chocolate-HA-theme
+#
+#
+Milk_and_Chocolate:
+
+  state-icon-color: var(--label-badge-blue) 
+  state-icon-active-color: var(--scrollbar-thumb-color) #rgb(174, 174, 178)
+  state-icon-unavailable-color: var(--disabled-text-color)
+  error-state-color: var(--error-color)
+
+  #### icon END ###
+ 
+  # Input
+  input-dropdown-icon-color: var(--secondary-text-color)  
+  input-ink-color: var(--primary-text-color)
+  input-label-ink-color: var(--secondary-text-color)
+  input-idle-line-color: var(--primary-text-color)
+  input-hover-line-color: var(--accent-color)
+  # Sliders
+  paper-slider-knob-color: var(--label-badge-text-color)
+  paper-slider-knob-start-color: var(--paper-slider-knob-color)
+  paper-slider-pin-color: var(--label-badge-blue) 
+  paper-slider-active-color: var(--label-badge-blue) 
+  paper-slider-secondary-color: var(--paper-slider-active-color)
+
+ # Switches
+  switch-checked-button-color: var(--label-badge-text-color) 
+  switch-checked-track-color:  var(--label-badge-green) 
+  switch-unchecked-button-color: var(--label-badge-text-color)
+  switch-unchecked-track-color: rgb(99, 99, 102) # silberdunkles grau
+  # Toggles
+  paper-toggle-button-checked-button-color: var(--switch-checked-button-color)
+  paper-toggle-button-checked-bar-color: var(--switch-checked-track-color)
+  paper-toggle-button-unchecked-button-color: var(--switch-unchecked-button-color)
+  paper-toggle-button-unchecked-bar-color: var(--switch-unchecked-track-color)
+  # Checkboxes
+  mdc-checkbox-unchecked-color: var(--state-icon-active-color) 
+  mdc-checkbox-disable-color: var(--disabled-text-color)
+  mdc-select-ink-color: var(--primary-text-color)
+  mdc-select-label-ink-color: var(--secondary-text-color)
+  mdc-select-idle-line-color: var(--primary-text-color)
+  mdc-select-hover-line-color: var(--accent-color)
+  
+  
+  ####### ICON COLORS
+  icon-color: var(--light-primary-color) #rgb(253 108 4); helles orange
+
+  mdc-select-dropdown-icon-color: var(--secondary-text-color)
+  
+  ################################# # SIDEBAR MENU #################################
+  sidebar-text-color: var(--text-primary-color) # helles grau ...rgb(187 180 160) 
+  sidebar-background-color: var(--secondary-background-color) #'var(--paper-listbox-background-color)' #backward compatible with existing themes
+  sidebar-icon-color: var(--sidebar-text-color) #'rgba(0, 0, 0, 0.5)'
+  sidebar-selected-text-color: var(--primary-color)
+  sidebar-selected-icon-color: var(--primary-color)
+  sidebar-selected-background-color: var(--secondary-background-color) #"rgba(0, 0, 0, 1)"
+  
+  label-badge-color: var(--primary-color) #rgb(28, 28, 30) 
+  label-badge-text-color: var(--primary-text-color) # rgb(242, 242, 247) #helles weiss
+  label-badge-red: var(--error-color) #rgb(255, 69, 58) blasses rot
+  
+
+  #background-image: "center / cover no-repeat fixed url('local/bg2f2720.png')"  
+  #background-image: linear-gradient(to bottom right, '#5C5342', '#2E261F');
+  #lovelace-background: var(--background-image)
+  # Header:
+  app-header-background-color: var(--card-background-color)
+  app-header-text-color: var(--primary-text-color) #rgb(229, 229, 234)
+   
+  # Sidebar Menu
+  paper-dialog-background-color: var(--card-background-color)
+  paper-listbox-background-color: var(--card-background-color)
+  paper-card-background-color: var(--card-background-color)
+
+  input-fill-color: var(--secondary-background-color)
+  mdc-dialog__surface: rgb(42 27 6 / 95%) # dunkles gackbraun
+  mdc-select-fill-color: rgb(58, 44, 17 / 65%) #rgb(28, 28, 30)
+  
+  # Table
+  table-row-background-color:  var(--primary-background-color) #rgb(28, 28, 30)
+  table-row-alternative-background-color:  var(--card-background-color) 
+  data-table-background-color: var(--primary-background-color) #rgb(0, 0, 0)
+  
+  mdc-theme-primary: var(--primary-color)
+  mdc-theme-secondary: var(--secondary-color)
+  mdc-theme-background: var(--primary-background-color)
+   
+  mdc-theme-surface: var(--secondary-background-color)
+  mdc-radio-unchecked-color: var(--secondary-text-color)
+  
+  # Buttons
+  paper-item-icon-color: var(--text-primary-color) #rgb(159 136 128) #rgb(78 64 59)
+
+
+  
+  modes:
+    dark:
+   
+        #################################
+        # TEXT
+        #################################
+      
+      #lovelace-background: 'center / cover no-repeat url("/local/bg2f2720.png") fixed' #Background-image
+      #lovelace-background: 'linear-gradient(0deg, rgba(45,37,31,1) 0%, rgba(59,51,41,0.95) 35%, rgba(91,82,65,0.85) 100%)' #brighter Background
+      lovelace-background: 'linear-gradient(0deg, rgba(29,23,19,1) 0%, rgba(47,40,32,0.95) 35%, rgba(54,47,39,0.85) 100%)' #darker Background
+      
+      
+      primary-text-color: rgb(228, 220, 211) #'#E4DCD3' #helles beige
+      secondary-text-color: rgb(217, 203, 158) #helles beige sand
+      text-primary-color: rgb(189, 171, 151) #'#bdab97' #mittelhelles beige grau
+      disabled-text-colour: rgb(72, 72, 74)
+        ################################# 
+        # MAIN INTERFACE COLORS
+        #################################
+      primary-color: rgb(230, 52, 0) #'#E63400' #tiefes orange
+      dark-primary-color: rgb(191, 43, 0) #'#bf2b00' #dunkles rot maroon
+      light-primary-color: rgb(247, 113, 19) #'#f77113' #halbdunkles orange
+      accent-color: rgb(0,141,185) # dunkles azur blau
+
+      ################################# # BACKGROUND AND SIDEBAR #################################
+      card-background-color: rgb(39, 30, 24) #dunkles braun..alle karten hintergründe
+      primary-background-color: rgb(47, 39, 32) #'#2f2720' #dunkles etwas blasses graubraun .."desktop"
+      secondary-background-color: rgb(31, 23, 16) #'#1f1710' #sehr dunkles braun ..seitenleiste
+      
+        #################################
+        # table lines around sidebar
+        #################################  
+      divider-color: rgb(44, 44, 46) #dunkles grau mit leichten blau
+      scrollbar-thumb-color: rgb(194, 194, 194) #helles grau
+      error-color: rgb(219, 68, 55) #'#db4437' # blasses Rot
+
+      ################################# # CARDS #################################
+      ha-card-border-radius: 10px #"15px"
+      ha-card-box-shadow: none #"inset 0px 0px 2px 2px var(--border-color)"
+      ha-card-header-color: rgba(255, 255, 255, 1) #weiss
+
+
+      ################################# # FOR LABEL BADGE #################################
+      label-badge-background-color: rgb(62 45 13 / 90%) #gackbraun  #var(--primary-color) #'white' 
+      label-badge-green: rgb(48, 209, 88)
+      label-badge-blue: rgb(10, 132, 255)
+      label-badge-yellow: rgb(255, 214, 10)
+      label-badge-gray: var(--paper-grey-500)
+     
+      
+      # Dropdowns
+      material-background-color: rgb(28, 28, 30)
+      material-secondary-background-color: rgb(44, 44, 46)
+      
+        # Pre/Code
+      markdown-code-background-color: rgb(58, 58, 60)
+     
+
+      slider-color: rgb(247, 136, 40) #helles blasses gelborange
+      slider-secondary-color: rgb(135, 179, 77) #helles blasses lindgrün
+      slider-track-color: rgb(102, 74, 30) #rgb(195, 18, 18)
+      
+      paper-item-icon-active-color: rgb(255, 168, 10)  # frisches gelb mit leichtem senf orange
+      
+      # States and Badges
+      state-on-color: rgb(102 166 30) # on status ..grün
+      state-off-color: rgb(158 175 156  / 30%) # off status graugrün transparent
+
+
+
+
+
+
+
+
+    light:
+
+
+
+        #################################
+        # TEXT
+        #################################
+      lovelace-background: 'linear-gradient(0deg, rgba(179,158,143,0.3) 0%, rgba(221,205,190,0.4) 50%, rgba(244,231,221,0.6) 100%)' #Background-image
+      primary-text-color: rgb(49, 44, 34) #'#E4DCD3' #helles beige
+      secondary-text-color: rgb(66, 57, 41) #helles beige sand
+      text-primary-color: rgb(31, 25, 17) #'#bdab97' #mittelhelles beige grau
+      disabled-text-colour: rgb(89, 78, 79)
+        ################################# 
+        # MAIN INTERFACE COLORS
+        #################################
+      primary-color: rgb(230, 52, 0) #'#E63400' #tiefes orange
+      dark-primary-color: rgb(191, 43, 0) #'#bf2b00' #dunkles rot maroon
+      light-primary-color: rgb(247, 113, 19) #'#f77113' #halbdunkles orange
+      accent-color: rgb(0,161,210) #  azur blau
+
+      ################################# # BACKGROUND AND SIDEBAR #################################
+      card-background-color: rgb(238,232,225) #..alle karten hintergründe
+      primary-background-color: rgb(243,239,233) #'#2f2720' # .."desktop"
+      secondary-background-color: rgb(235, 225, 211) #rgb(201, 139, 69) #'#1f1710' # ..seitenleiste
+      
+      ################################# # BACKGROUND AND SIDEBAR #################################
+      #card-background-color: rgb(119, 175, 102) #..alle karten hintergründe
+      #primary-background-color: rgb(165, 200, 147) #'#2f2720' # .."desktop"
+      #secondary-background-color: rgb(143, 188, 133) #'#1f1710' # ..seitenleiste
+      
+        #################################
+        # table lines around sidebar
+        #################################  
+      divider-color: rgb(225, 210, 180)
+      scrollbar-thumb-color: rgb(94, 94, 94) #helles grau
+      error-color: rgb(219, 68, 55) #'#db4437' # blasses Rot
+
+      ################################# # CARDS #################################
+      ha-card-border-radius: 16px #"15px"
+      
+      
+      
+      #ha-card-box-shadow: 0px -2px 15px 2px rgb(255, 255, 255), 0px 2px 10px 2px rgb(201, 196, 188), inset 0px 0px 10px 5px rgb(235, 230, 225)   #-1px 9px 23px 0px var(--card-background-color)
+      
+      #softer ha-card-box-shadow: inset 0px 2px 50px 5px rgba(255, 255, 255,0.5), 0px 0px 6px 5px rgba(251, 246, 238,0.4), 3px 3px 6px 0px rgba(185, 180, 185, 0.1)
+      #much subtile ha-card-box-shadow: inset 0px 2px 20px 10px rgba(255, 255, 255,0.2), 0px 2px 4px 2px rgba(251, 246, 238,0.3)
+      #softer with border 
+      #ha-card-box-shadow: inset 0px 2px 80px 20px rgba(255, 255, 250,0.8), 0px 2px 4px 2px rgba(251, 246, 238,0.3), 0px 0px 2px 0px rgba(100, 100, 100, 0.4)
+      ha-card-box-shadow: inset 0px 2px 40px 20px rgba(255, 255, 250,0.8), 0px 2px 4px 2px rgba(241, 230, 220,0.1), 0px 0px 2px 0px rgba(150, 150, 100, 0.3)
+      
+      ha-card-header-color: '#402000' #weiss
+
+
+      ################################# # FOR LABEL BADGE #################################
+      label-badge-background-color: rgb(229, 210, 189) #gackbraun  #var(--primary-color) #'white' 
+      label-badge-green: rgb(48, 209, 88)
+      label-badge-blue: rgb(10, 132, 255)
+      label-badge-yellow: rgb(255, 214, 10)
+      label-badge-gray: var(--paper-grey-500)
+     
+      
+      # Dropdowns
+      material-background-color: rgb(234,205,185)
+      material-secondary-background-color: rgb(250,232,220)
+      
+     # Pre/Code
+      markdown-code-background-color: rgb(225, 219, 208)
+     
+
+      slider-color: rgb(247, 136, 40) #helles blasses gelborange
+      slider-secondary-color: rgb(135, 179, 77) #helles blasses lindgrün
+      slider-track-color: rgb(98, 87, 69) #rgb(102, 74, 30) #rgb(195 18 18)
+      
+      paper-item-icon-active-color: rgb(255, 168, 10)  # frisches gelb mit leichtem senf orange
+      
+      # States and Badges
+      state-on-color: rgb(102, 166, 30) # on status ..grün
+      state-off-color: rgba(158, 175, 156, 0.4) # off status graugrün transparent
+
+
+      mdc-select-fill-color: rgb(231, 218, 204)
+ 
+
+
+
+ 
