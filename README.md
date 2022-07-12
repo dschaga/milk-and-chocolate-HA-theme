@@ -28,7 +28,7 @@ This will create a folder "milk-and-chocolate-HA-theme" into the themes folder.
 ## why it looks like it looks like 
 ### The dark "chocolate" mode
 Basicaly it's a dark theme with a slightly shift into brown and with orange accents. Mostly this "brown shift" comes from the text color and from the base background gradient. 
-The Theme was created in winter during the heating season and while there was mostly artifical lighting. 
+The Theme was created in winter during the heating season and while there was mostly artifical lighting and or the light of a fireplace. At that time this theme feels just right.
 
 
 
