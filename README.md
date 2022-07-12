@@ -1,5 +1,6 @@
 # milk-and-chocolate-HA-theme
 This Home assistant theme should fit into traditional homes with a lot of wood on the walls.
+Most dark themes (ios or google) are on the gray side, which this theme still keeps, but it shifts a little into the dark chocolate side. 
 
 ## How to use / install the theme
 Due the fact that i'm new to git, i'm very sorry to not be able to offer you a more fancy methode than :
@@ -29,7 +30,7 @@ This will create a folder "milk-and-chocolate-HA-theme" into the themes folder.
 Basicaly it's a dark theme with a slightly shift into brown and with orange accents. Mostly this "brown shift" comes from the text color and from the base background gradient. 
 The Theme was created in winter during the heating season and while there was mostly artifical lighting. 
 
-Most dark themes (ios or google) are on the gray side, which this theme still keeps, but it shifts a little into the dark chocolate side. 
+
 
 ![screen2](https://user-images.githubusercontent.com/176213/178560318-41fc16ad-9733-4201-b87b-44c6d515a833.PNG)
 ![screen1a](https://user-images.githubusercontent.com/176213/178559537-48f87bdf-026e-4500-86ec-198e2cbddd95.PNG)
